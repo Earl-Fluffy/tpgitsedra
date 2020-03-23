@@ -14,9 +14,9 @@ class Sphere(object):
         return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
-         *** STEP 3 ***
-         uncomment the following line
-        return 4.0 * math.pi * self.radius ** 2
+         #*** STEP 3 ***
+         #uncomment the following line
+        return 4.0 * 3.1416 * self.radius ** 2
         pass
 
     def volume(self):
@@ -28,7 +28,7 @@ class Sphere(object):
     def diameter(self):
         # *** STEP 5 ***
         # uncomment the following line
-        #return self.radius
+        return self.radius
         pass
 
     def dump(self, filename):
